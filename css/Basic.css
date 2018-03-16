@@ -1,0 +1,43 @@
+/*
+ * 
+ * 
+ * 2018/3/9
+ * 
+ */
+.font-size-14px{
+	font-size: 14px;
+}
+.font-size-15px{
+	font-size: 15px;
+}
+.dv_square_200{
+	width: 200px;
+	height: 200px;
+}
+.dv_rect_WAH300{
+	width: 100%;
+	height: 300px;
+
+}
+.dv_mg_5{
+	margin: 5px;
+}
+.dv_mg_10{
+	margin: 10px;
+}
+.dv_mg_15{
+	margin: 15px;
+}
+.ip_normal{
+	width: 100px;
+	height: 25px;
+	background-color: ghostwhite;
+	color: black;
+	border: 1px solid #46B8DA;
+}
+.ip_normal:hover{
+	background-color: gainsboro;
+}
+.bd_sd_grey_1{
+	border: solid gainsboro 1px;
+}
