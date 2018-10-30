@@ -110,6 +110,26 @@
 			    -ms-user-select:none;		
 			    user-select:none;
 			}
+			.search{
+				position: fixed;
+				right: 50px;
+			}
+			.button{
+				width: 90px;
+			    height: 36px;
+			    color: #fff;
+			    font-size: 15px;
+			    letter-spacing: 1px;
+			    background: #3385ff;
+			    border: 1px solid #2d78f4;
+			    border-radius: 6%;
+			}
+			.textword{
+				height: 31px;
+				position: relative;
+				top: -2px;
+				border-radius: 3%;
+			}
 			footer{
 				position: -ms-device-fixed;
 				bottom: 0;
@@ -129,6 +149,29 @@
 		<div>
 			<header>
 				<span class="center">BCS后端组——资料库</span>
+				<div class="search">
+					<form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+					    <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+					    <input type="text"  onfocus="checkHttps" name="word"  size="30" class="textword">
+					    <input type="submit"value="百度一下" class="button">
+					</form>
+					<script src="http://s1.bdstatic.com/r/www/cache/global/js/BaiduHttps_20150714_zhanzhang.js"></script>
+					<script>
+					    function checkHttps () {
+					        BaiduHttps.useHttps();    
+					    };
+					    function baiduWithHttps (formname) {
+					        var data = BaiduHttps.useHttps();
+					        if (data.s === 0) {
+					            return true;
+					        }
+					        else {
+					            formname.action = 'https://www.baidu.com/baidu' + '?ssl_s=1&ssl_c' + data.ssl_code;
+					            return true;
+					        }
+					    };
+					</script>
+				</div>
 			</header>
 			<div class="contain">
 				<div class="div-left">
