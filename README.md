@@ -6,7 +6,7 @@
 
 + [学习小组高数.doc](https://github.com/fmw666/BCS/raw/master/doc/%E5%AD%A6%E4%B9%A0%E5%B0%8F%E7%BB%84%E9%AB%98%E6%95%B0.doc)
 + [学习小组高数2.doc](https://github.com/fmw666/BCS/raw/master/doc/%E5%AD%A6%E4%B9%A0%E5%B0%8F%E7%BB%84%E9%AB%98%E6%95%B02%E7%AD%94%E6%A1%88%E7%89%88%20.doc)
-+ [高数《微积分》.zip]()
++ [高数《微积分》.zip](https://github.com/fmw666/BCS/raw/master/doc/%E9%AB%98%E6%95%B0%E3%80%8A%E5%BE%AE%E7%A7%AF%E5%88%86%E3%80%8B.zip)
 <hr>
 
 > **线代**
