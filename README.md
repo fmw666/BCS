@@ -13,7 +13,7 @@
 
 + [线代练习题.docx](https://github.com/fmw666/BCS/raw/master/doc/%E7%BA%BF%E4%BB%A3%E7%BB%83%E4%B9%A0%E9%A2%98.docx)                       
 + [学习小组线代.doc](https://github.com/fmw666/BCS/raw/master/doc/%E5%AD%A6%E4%B9%A0%E5%B0%8F%E7%BB%84%E7%BA%BF%E4%BB%A3.doc)&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;答案版->[线性代数B半期试卷--答案与评分标准.doc](https://github.com/fmw666/BCS/raw/master/doc/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0B%E5%8D%8A%E6%9C%9F%E8%AF%95%E5%8D%B7--%E7%AD%94%E6%A1%88%E4%B8%8E%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.doc)
-+ [线性代数.zip]()
++ [线性代数.zip](https://github.com/fmw666/BCS/raw/master/doc/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.zip)
 <hr>
 
 > **语文**
