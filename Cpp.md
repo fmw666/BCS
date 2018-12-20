@@ -1,3 +1,4 @@
+<a href="javascript:void(0);" onclick="javascript:this.innerHTML=(this.innerHTML=='修改'?'关闭':'修改')">修改</a>
 ```cpp
 #include <iostream>
 
