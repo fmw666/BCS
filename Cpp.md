@@ -41,3 +41,53 @@ int main()
 }
 
 ```
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class Shape
+{
+public:
+    Shape(){}
+    virtual double getArea(){
+        return 0;
+    }
+};
+
+class Circle:public Shape
+{
+private:
+    double r;
+public:
+    Circle(double r):r(r){}
+    virtual double getArea(){
+        return r*r*3.14;
+    }
+};
+
+class Squre:public Shape
+{
+private:
+    int l;
+public:
+    Squre(int l):l(l){}
+    virtual double getArea(){
+        return double(l*l);
+    }
+};
+
+int main()
+{
+    Squre s(5);
+    Circle c(5);
+
+    Shape *p[2]={&s,&c};
+    for(int i=0;i<2;i++){
+        cout<<p[i]->getArea()<<endl;
+    }
+
+    return 0;
+}
+```
