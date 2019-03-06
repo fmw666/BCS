@@ -1,4 +1,3 @@
-<img src="https://github.com/fmw666/My-Private-file/blob/master/pictures/anime/cute1.jpeg">
 ## 🙅整理了下大一的复习资料
 <br>
 
